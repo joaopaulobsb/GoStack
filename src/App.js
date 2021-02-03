@@ -17,7 +17,7 @@ function App() {
     //setProjects([...projects, `Novo projeto ${Date.now()}`]); 
     const response = await api.post('projects', {
       title: `Novo projeto ${Date.now()}`,
-      owner: "Joao Paulo Valadares"
+      owner: "Joao Paulo Valadares" 
     }); 
 
     const project = response.data;

@@ -10,7 +10,7 @@ module.exports = {
     contentBase: path.resolve(__dirname, 'public'),
   },
   module: {
-    rules: [
+    rules: [ 
       {
         test: /\.js$/,
         exclude: /node_modules/,
